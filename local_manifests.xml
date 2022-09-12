@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-20.0" />
+
+  <!-- CodeLinaro additions -->
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
+
+  <!-- Hardware Hals -->
+  <project path="hardware/qcom-caf/sm8250/audio" name="ChaptSpace/android_hardware_qcom_audio" remote="github" revision="caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="ChaptSpace/android_hardware_qcom_display" remote="github" revision="caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="ChaptSpace/android_hardware_qcom_media" remote="github" revision="caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/gps" name="ChaptSpace/android_hardware_qcom_gps" remote="github" revision="caf-sm8250" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
+
+  <!-- CodeLinaro Vendor -->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="lineage" />
+  <project path="vendor/qcom/opensource/interfaces-ext" name="ChaptSpace/android_vendor_qcom_opensource_interfaces-ext" remote="github" revision="tm" />
+
+  <!-- LineageOS Additions -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+</manifest>
