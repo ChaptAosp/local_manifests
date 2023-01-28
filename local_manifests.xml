@@ -14,6 +14,10 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
 
+  <!-- Qcom Sepolicy -->
+  <project path="device/qcom/sepolicy" name="ChaptSpace/android_device_qcom_sepolicy" remote="github" revision="tm-release" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="ChaptSpace/android_device_qcom_sepolicy_vndr" remote="github" revision="tm-release" />
+
   <!-- Hardware Hals -->
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-20.0-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-20.0-caf-sm8250" />
